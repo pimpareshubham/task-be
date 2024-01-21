@@ -143,12 +143,13 @@ router.get('/all', async (req, res) => {
 
 router.get('/', async (req, res) => {
     try {
-        res.status(200).json({"Hiii});
+        res.status(200).json({ message: 'Hello' });
     } catch (error) {
         console.error(error);
         res.status(500).json({ success: false, message: 'Internal Server Error' });
     }
 });
+
 router.get('/details/:id', async (req, res) => {
     try {
         const userId = req.params.id;
