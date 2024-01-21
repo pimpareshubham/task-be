@@ -1,5 +1,5 @@
 module.exports = {
    
-    MONGODB_URL : "mongodb://127.0.0.1:27017/mindful",
+    MONGODB_URL : "mongodb+srv://shubhampimpare111:JMJKKF5vFXWuRj7C@cluster0.mxxpmhg.mongodb.net/?retryWrites=true&w=majority/mindful",
     JWT_SECRET : "jajsndsjndksdnkasamdn"
 }
